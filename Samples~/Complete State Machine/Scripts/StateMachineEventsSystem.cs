@@ -12,6 +12,7 @@ public struct StateMachineExampleEvents : IComponentData
 
 [UpdateInGroup(typeof(TransformSystemGroup))]
 [UpdateAfter(typeof(AnimationEventsSystem))]
+[DisableAutoCreation]
 public partial class StateMachineEventsSystem : SystemBase
 {
     protected override void OnCreate()

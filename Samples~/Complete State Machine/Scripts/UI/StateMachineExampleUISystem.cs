@@ -1,6 +1,7 @@
 ﻿using DOTSAnimation;
 using Unity.Entities;
 
+[DisableAutoCreation]
 public partial class StateMachineExampleUISystem : SystemBase
 {
     private static int IsJumpingHash => StateMachineParameterUtils.GetHashCode("IsJumping");
